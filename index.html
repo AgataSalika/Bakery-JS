@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+      <!--=============== FONTAWESOME ===============-->
+      <script src="https://kit.fontawesome.com/9b9f6eb9ed.js" crossorigin="anonymous"></script>
+
+      <!--=============== CSS  ===============-->
+      <link rel="stylesheet" href="css/styles.css">
+ 
+      <title>Responsive bakery website</title>
+   </head>
+
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">Bakery</a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link">Home </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#new" class="nav__link">News</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#about" class="nav__link">About Us</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#favorites" class="nav__link">Favorites</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#visit" class="nav__link">Location</a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class='nav__close' id='nav-close'>
+                  <i class="fa-solid fa-xmark"></i>
+               </div>
+
+               <img src="./img/bread-4.png" alt="image" class="nav__img-1">
+               <img src="./img/bread-1.png" alt="image" class="nav__img-2">
+            </div>
+
+             <!-- Toggle button -->
+             <div class="nav__toggle" id="nav-toggle">
+               <i class="fa-solid fa-bars"></i>
+             </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <img src="./img/home-bg.jpg" alt="image" class="home__bg">
+            <div class="home__shadow"></div>
+
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h1 class="home__title">
+                     Select The Best <br> Quality Breads
+                  </h1>
+
+                  <a href="#" class="button">Select Breads</a>
+
+                  <!-- <img src="/img/bread-1.png" alt="image" class="home__bread">  -->
+               </div>   
+               
+                  <div class="home__image">
+                     <img src="./img/home-bread.png" alt="image" class="home__img">
+                  </div>
+
+                  <footer class="home__footer">
+                     <div class="home__location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>AV. The Sun #321 <br> Lima Peru
+                        </span>
+                     </div>
+
+                     <div class="home__social">
+                        <a href="https://youtu.be/ad5_MXzibSM?si=Zccp7KdkasnmyL6g"  target="_blank">
+                           <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+                        <a href="https://t.me/proviant_omsk"  target="_blank">
+                           <i class="fa-brands fa-telegram"></i>
+                        </a>
+
+                        <a href="https://vk.com/proviant_omsk"  target="_blank">
+                           <i class="fa-brands fa-vk"></i>
+                        </a>
+                     </div>
+                  </footer>
+            </div>
+         </section>
+
+         <!--==================== NEWS ====================-->
+         <section class="new section" id="new">
+            <h2 class="section__title" id="new">New Breads</h2>  
+
+            <div class="new__container container grid">
+               <div class="new__content grid">
+                  <article class="new__card">
+                     <div class="new__data">
+                        <h2 class="new__title">Rye Bread</h2>
+                           <p class="new__desciption">Baked with healthy, gluten-free 
+                              sourdough for good nutrition.</p>
+                     </div>
+
+                     <img src="./img/new-bread-1.png"  alt="image" class="new__img">
+                  </article>
+
+                  <article class="new__card">
+                     <div class="new__data">
+                        <h2 class="new__title">Whole Grain Bread</h2>
+                           <p class="new__desciption">Crispy and homemade prepared 
+                              from organic yeast-free flour.</p>
+                     </div>
+
+                     <img src="./img/new-bread-2.png"  alt="image" class="new__img">
+                  </article>
+
+                  <article class="new__card">
+                     <div class="new__data">
+                        <h2 class="new__title">Multigrain Bread</h2>
+                           <p class="new__desciption">Tasty and made with different 
+                              natural grains from the countryside.</p>
+                     </div>
+
+                     <img src="./img/new-bread-3.png"  alt="image" class="new__img">
+                  </article>
+               </div>
+
+               <a href="#" class="new__button button">See More Breads</a>
+
+            </div>
+            
+            </div>
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <div class="about__container container grid">
+               <div class="about__data">
+                 
+                  <h2 class="section__title">About Us</h2>
+
+                  <p class="about__description">We prepare all types of bread that are made at home, 
+                     maintaining the tradition of using only the best 
+                     ingredients made with local products whenever possible. 
+                     We have an extensive line of freshly prepared bakery
+                     and coffee products.
+                  </p>
+
+                  <a href="#" class="button">Know More</a>
+                  
+               </div>
+
+               <div>
+                  <img src="./img/about-bread.png" alt="image" class="about__img">
+               </div>
+            </div> 
+           
+         </section>
+         
+         <!--==================== FAVORITES ====================-->
+         <section class="favorite section" id="favorites">
+            <h2 class="section__title">Customer Favorite</h2>
+
+            <div class="favorite__container container grid">
+               <article class="favorite__card">
+                  <img src="./img/favorite-bread-1.png" alt="image" class="favorite__img">
+
+                  <div class="favorite__data">
+                     <h2 class="favorite__title">Whole Grain</h2>
+                     <span class="favorite__subtitle">Bread</span>
+                     <h3 class="favorite__price">$6.00</h3>
+                  </div>
+
+                  <button class="favorite__button button">
+                     <i class="fa-solid fa-plus"></i>
+                  </button> 
+               </article>
+
+               <article class="favorite__card">
+                  <img src="./img/favorite-bread-2.png" alt="image" class="favorite__img">
+
+                  <div class="favorite__data">
+                     <h2 class="favorite__title">Rye</h2>
+                     <span class="favorite__subtitle">Bread</span>
+                     <h3 class="favorite__price">$8.00</h3>
+                  </div>
+
+                  <button class="favorite__button button">
+                     <i class="fa-solid fa-plus"></i>
+                  </button> 
+               </article>
+
+               <article class="favorite__card">
+                  <img src="./img/favorite-bread-3.png" alt="image" class="favorite__img">
+
+                  <div class="favorite__data">
+                     <h2 class="favorite__title">Wheat</h2>
+                     <span class="favorite__subtitle">Bread</span>
+                     <h3 class="favorite__price">$3.00</h3>
+                  </div>
+
+                  <button class="favorite__button button">
+                     <i class="fa-solid fa-plus"></i>
+                  </button> 
+               </article>
+
+                <article class="favorite__card">
+                  <img src="./img/favorite-bread-4.png" alt="image" class="favorite__img">
+
+                  <div class="favorite__data">
+                     <h2 class="favorite__title">Multigrain</h2>
+                     <span class="favorite__subtitle">Bread</span>
+                     <h3 class="favorite__price">$5.00</h3>
+                  </div>
+
+                  <button class="favorite__button button">
+                     <i class="fa-solid fa-plus"></i>
+                  </button> 
+               </article>
+
+               <article class="favorite__card">
+                  <img src="./img/favorite-bread-5.png" alt="image" class="favorite__img">
+
+                  <div class="favorite__data">
+                     <h2 class="favorite__title">Sourdough</h2>
+                     <span class="favorite__subtitle">Bread</span>
+                     <h3 class="favorite__price">$7.00</h3>
+                  </div>
+
+                  <button class="favorite__button button">
+                     <i class="fa-solid fa-plus"></i>
+                  </button> 
+               </article>
+
+               <article class="favorite__card">
+                  <img src="./img/favorite-bread-6.png" alt="image" class="favorite__img">
+
+                  <div class="favorite__data">
+                     <h2 class="favorite__title">French</h2>
+                     <span class="favorite__subtitle">Bread</span>
+                     <h3 class="favorite__price">$3.00</h3>
+                  </div>
+
+                  <button class="favorite__button button">
+                     <i class="fa-solid fa-plus"></i>
+                  </button> 
+               </article>
+            
+         </section>
+
+         <!--==================== VISIT ====================-->
+         <section class="visit section" id="visit">
+            <div class="visit__container">
+               <img src="./img/visit-bg.jpg" alt="image" class="visit__bg">
+               <div class="visit__shadow"></div>
+
+               <div class="visit__content container grid">
+                  <div class="visit__data">
+                     <h2 class="section__title">Visit Us</h2>
+
+                     <p class="visit__description">
+                        Discover the best bread, we look forward 
+                        to your visit.
+                     </p>
+
+                     <a href="#" class="button">See Location</a>
+                  </div>
+               </div>
+
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <div>
+               <a href="#" class="footer__logo">Bakery</a>
+               <p class="footer__description">We make the best bread in the city.</p>
+            </div>
+
+            <div class="footer__content grid">
+               <div>
+                  <h3 class="footer__title">Address</h3>
+                  
+                  <ul class="footer__list">
+                     <li>
+                        <address class="footer_info"> AV. The Sun #321 <br> Lima Peru</address>
+                     </li>
+                     <li>
+                        <address class="footer_info"> 9AM - 11PM</address>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Contact Me</h3>
+                  
+                  <ul class="footer__list">
+                     <li>
+                        <address class="footer_info"> bakery@email.com</address>
+                     </li>
+                     <li>
+                        <address class="footer_info"> +00 987 654 321</address>
+                     </li>
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Follow Us</h3>
+
+                  <div class="footer__social">
+                     <a href="https://youtu.be/ad5_MXzibSM?si=Zccp7KdkasnmyL6g"  target="_blank">
+                        <i class="fa-brands fa-youtube"></i>
+                     </a>
+
+                     <a href="https://t.me/proviant_omsk"  target="_blank">
+                        <i class="fa-brands fa-telegram"></i>
+                     </a>
+
+                     <a href="https://vk.com/proviant_omsk"  target="_blank">
+                        <i class="fa-brands fa-vk"></i>
+                     </a>
+                  </div>
+                 
+               </div>
+
+            </div>
+
+            <img src="./img/bread-4.png" alt="image" class="footer__img-1">
+            <img src="./img/bread-3.png" alt="image" class="footer__img-2">
+         </div>
+
+         <span class="footer__copy">
+            &#169; All Rights Reserved By Bedimcode
+         </span>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="fa-solid fa-arrow-up"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="/js/scrollreveal.min.js"></script>
+      <!--=============== MAIN JS ===============-->
+      <script src="/js/main.js"></script>
+    
+     
+
+
+   </body>
+</html>
